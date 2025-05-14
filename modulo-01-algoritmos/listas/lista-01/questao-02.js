@@ -1,16 +1,23 @@
-const prompt = require('prompt-sync')();
+const prompt = require("prompt-sync")();
 
-const idade = parseInt(prompt('Digite uma idade: '));
+const entrada = prompt("Digite uma idade: ");
 
-if (typeOf(idade) != Number || idade < 0 || idade > 130) return
-
-if (idade < 12) {
-  console.log('criança');
-} else (idade < 18) {
-  console.log('adolescente');
-} else (idade < 60) {
-  console.log('adulto');
+if (typeof parseInt(entrada) !== "number" || isNaN(entrada)) {
+  console.log("Entrada invalida!");
 } else {
-  console.log('idoso');
+  idade = parseInt(entrada);
+  
+  if (idade >= 0 && idade <= 130){
+    if (idade < 12) {
+      console.log("crianca");
+    } else if (idade < 18) {
+      console.log("adolescente");
+    } else if (idade < 60) {
+      console.log("adulto");
+    } else {
+      console.log("idoso");
+    }
+  } else {
+    console.log("Idade invalida!");
+  }
 }
-

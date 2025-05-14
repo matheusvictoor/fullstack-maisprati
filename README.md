@@ -4,7 +4,7 @@ Este repositório contém todos os exercícios, projetos e anotações desenvolv
 
 ## 🚀 Sobre o curso
 
-A Trilha Full Stack Developer Júnior é um programa gratuito com foco na formação de desenvolvedores web completos, abrangendo tanto o front-end quanto o back-end. O curso é estruturado em 6 módulos, totalizando 450 horas de conteúdo técnico, com aulas virtuais ao vivo.
+A Trilha Full Stack Developer Júnior é um programa gratuito com foco na formação de desenvolvedores web completos, abrangendo tanto o front-end quanto o back-end. O curso é estruturado em 6 módulos:
 
 ### 📚 Conteúdo Programático
 
@@ -21,32 +21,23 @@ A Trilha Full Stack Developer Júnior é um programa gratuito com foco na forma�
 fullstack-maisprati/
 │
 ├── modulo-01-algoritmos/
-│   ├── listas/
-│   └── projetos/
+│   └── listas/
 │
 ├── modulo-02-frontend/
-│   ├── listas/
-│   └── projetos/
+│   └── listas/
 │
 ├── modulo-03-react/
-│   ├── listas/
-│   └── projetos/
+│   └── listas/
 │
 ├── modulo-04-java-spring/
-│   ├── listas/
-│   └── projetos/
+│   └── listas/
 │
 ├── modulo-05-backend-db/
-│   ├── listas/
-│   └── projetos/
+│   └── listas/
 │
 ├── modulo-06-devops-ia/
 │   ├── listas/
 │   └── projetos/
-│
-├── extras/
-│   ├── anotacoes.md
-│   └── materiais-referencia/
 │
 └── README.md
 ```

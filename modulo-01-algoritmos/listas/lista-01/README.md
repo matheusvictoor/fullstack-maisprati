@@ -2,7 +2,7 @@
 
 ## Como rodar os exercícios
 
-1. Acesse o diretório da lista:
+1. Após clonar o repositório, acesse o diretório da lista:
 
 ```bash
 cd modulo-01-algoritmos/listas/lista-01
